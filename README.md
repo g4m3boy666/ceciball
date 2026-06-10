@@ -8,7 +8,7 @@ Chaque base possède :
 - un bouton ;
 - un programme MicroPython.
 
-Le principe est volontairement direct : une base bipe, le joueur appuie sur son bouton, la base s'arrête, puis elle demande à la base suivante de biper.
+Le principe est volontairement direct : une base bipe, le joueur appuie sur la plaque de pression (ici le bouton), la base s'arrête, puis elle demande à la base suivante de biper.
 
 ## Structure du projet
 
