@@ -1,5 +1,7 @@
 # Ceciball ESP32 - Bases sonores automatiques
 
+[![Ouvrir dans GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/g4m3boy666/ceciball?quickstart=1)
+
 Ce projet propose une première version simple pour piloter des bases de Ceciball avec des ESP32.
 Chaque base possède :
 
@@ -24,6 +26,21 @@ ceciball/
 
 Important : sur une ESP32 MicroPython, le fichier lancé automatiquement doit s'appeler `main.py`.
 Il faut donc envoyer le `main.py` du bon dossier sur la bonne carte.
+
+## Tester rapidement avec GitHub Codespaces
+
+Pour ouvrir le projet directement dans un environnement de test en ligne, cliquez ici :
+
+[Ouvrir le projet dans GitHub Codespaces](https://codespaces.new/g4m3boy666/ceciball?quickstart=1)
+
+Dans Codespaces, ouvrez un terminal puis lancez :
+
+```bash
+python -m py_compile base_1_server/main.py base_worker/main.py main.py
+```
+
+Ce test vérifie que les fichiers Python n'ont pas d'erreur de syntaxe.
+Il ne remplace pas un test sur ESP32, car Codespaces ne possède pas les broches GPIO, le Wi-Fi MicroPython, le buzzer et le bouton.
 
 ## Fonctionnement général
 
