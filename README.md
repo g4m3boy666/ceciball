@@ -271,9 +271,10 @@ KNOWN_BASES = (
 Cette version est simple et lisible.
 Elle ne fait pas encore :
 
-- de chiffrement avancé entre les bases ;
 - de détection automatique de toutes les bases ;
-- de journal complet de partie ;
+- de journal complet de partie ou de gestion des bases déja actionné ;
 - de serveur web graphique avancé.
 
-Ces points peuvent être ajoutés plus tard sans changer le principe de base.
+Ce sont des points important à ajouter.
+
+Ceci est un PoC "Proof Of Concept" donc pas stable ni totalement fonctionnel.
