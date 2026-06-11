@@ -291,6 +291,7 @@ Elle ne fait pas encore :
 - de détection automatique de toutes les bases ;
 - de journal complet de partie ou de gestion des bases déja actionné ;
 - de serveur web graphique avancé.
+- faire un syteme pour gérer un capteur infra-rouge
 
 Ce sont des points important à ajouter.
 
