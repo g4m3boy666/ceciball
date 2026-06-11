@@ -51,10 +51,10 @@ WIFI_PASSWORD = "CECIBALL123"
 SERVER_PORT = 80
 
 # GPIO du buzzer actif.
-BUZZER_PIN = 25
+BUZZER_PIN = 4
 
 # GPIO du bouton.
-BUTTON_PIN = 14
+BUTTON_PIN = 15
 
 # Valeur lue quand le bouton est appuye, avec un cablage bouton -> GND.
 BUTTON_PRESSED_VALUE = 0
